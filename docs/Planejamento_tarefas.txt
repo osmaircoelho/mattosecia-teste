@@ -1,0 +1,22 @@
+Planejamento tarefa mattos & cia
+===========================================
+[x] instalar o laravel 10
+
+[x] feature/git  
+  [x] fazer o primeiro commit
+  [x] configurar projeto no github
+  [x] merge main <- git	
+
+
+[x] feature/dockerconfig
+ [x] configurar o docker
+ [x] mostrar o laravel rodando no browser
+ [x] configurar o docker para phpstorm
+ [x] configurar o postgres no phpstorm 
+ [x] merge main <- dockerconfig
+
+[] feature/migration_tb_estrategia_wms
+ [] rodar comando php artisan migrate
+ [] criar as migration
+ [] rodar as migration
+ [] merge main <- migration_tb_estrategia_wms
