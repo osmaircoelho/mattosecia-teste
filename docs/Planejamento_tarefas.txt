@@ -15,8 +15,8 @@ Planejamento tarefa mattos & cia
  [x] configurar o postgres no phpstorm 
  [x] merge main <- dockerconfig
 
-[] feature/migration_tb_estrategia_wms
- [] rodar comando php artisan migrate
- [] criar as migration
- [] rodar as migration
- [] merge main <- migration_tb_estrategia_wms
+[x] feature/migration_tb_estrategia_wms
+ [x] rodar comando php artisan migrate
+ [x] criar as migration com a tabela nome: tb_estrategia_wms
+ [x] rodar as migration
+ [x] merge main <- migration_tb_estrategia_wms
