@@ -7,7 +7,6 @@ Planejamento tarefa mattos & cia
   [x] configurar projeto no github
   [x] merge main <- git	
 
-
 [x] feature/dockerconfig
  [x] configurar o docker
  [x] mostrar o laravel rodando no browser
@@ -21,7 +20,13 @@ Planejamento tarefa mattos & cia
  [x] rodar as migration
  [x] merge main <- migration_tb_estrategia_wms
 
-[] feature/migration_tb_estrategia_wms_horario_prioridade
+[x] feature/migration_tb_estrategia_wms_horario_prioridade
  [x] criar as migration com a tabela nome: tb_estrategia_wms_horario_prioridade
  [x] rodar as migration
- [] merge main <- migration_tb_estrategia_wms_horario_prioridade
+ [x] merge main <- migration_tb_estrategia_wms_horario_prioridade
+ 
+[] feature/post_estrategiawms
+ [x] definir rota POST /estrategiaWMS
+ [x] criar o controlador EstrategiaWMSController
+ [] criar o modelo
+ [] implementar a logica dentro do __invoke
