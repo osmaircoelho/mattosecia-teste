@@ -20,3 +20,8 @@ Planejamento tarefa mattos & cia
  [x] criar as migration com a tabela nome: tb_estrategia_wms
  [x] rodar as migration
  [x] merge main <- migration_tb_estrategia_wms
+
+[] feature/migration_tb_estrategia_wms_horario_prioridade
+ [x] criar as migration com a tabela nome: tb_estrategia_wms_horario_prioridade
+ [x] rodar as migration
+ [] merge main <- migration_tb_estrategia_wms_horario_prioridade
