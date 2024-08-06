@@ -44,7 +44,8 @@ Planejamento tarefa mattos & cia
  [x] editar controller e acrescentar um try-catch
  [-] adicionar resource do laravel no post ou no get (se aplicavel)
  [x] instalar o phpstan/larastan e rodar para elegibilidade do codigo
- [] instalar o Laravel Pint->Padrao de formatacao
- [] criar no insomnia conteudo com diferentes retornos nos gets
+ [x] instalar o Laravel Pint->Padrao de formatacao
+ [x] criar no insomnia conteudo com diferentes retornos de horarios nos gets
+ [x] exportar Collection e colar na pasta /docs
  [] criar read-me para instalacao
  
