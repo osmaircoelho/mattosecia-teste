@@ -28,5 +28,7 @@ Planejamento tarefa mattos & cia
 [] feature/post_estrategiawms
  [x] definir rota POST /estrategiaWMS
  [x] criar o controlador EstrategiaWMSController
- [] criar o modelo
- [] implementar a logica dentro do __invoke
+ [x] criar o modelo estrategiawms
+ [x] editar arquivo appServiceProvider model::ungarded
+ [x] criar relacionamento
+ [x] implementar a logica dentro do __invoke
