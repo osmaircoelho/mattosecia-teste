@@ -39,3 +39,13 @@ Planejamento tarefa mattos & cia
  [x] criar o modelo estrategiawmsprioridade 
  [x] criar relacionamento
  [x] implementar a logica dentro do __invoke
+ 
+[x] feature/aprimoramento
+ [x] editar controller e acrescentar um try-catch
+ [-] adicionar resource do laravel no post ou no get (se aplicavel)
+ [x] instalar o phpstan/larastan e rodar para elegibilidade do codigo
+ [x] instalar o Laravel Pint->Padrao de formatacao
+ [x] criar no insomnia conteudo com diferentes retornos de horarios nos gets
+ [x] exportar Collection e colar na pasta /docs
+ [-] criar read-me para instalacao
+ 

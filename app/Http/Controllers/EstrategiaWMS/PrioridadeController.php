@@ -3,8 +3,7 @@
 namespace App\Http\Controllers\EstrategiaWMS;
 
 use App\Http\Controllers\Controller;
-use App\Models\EstrategiaWMS;
-use App\Models\EstrategiaWMSPrioridade;
+use App\Models\{EstrategiaWMS, EstrategiaWMSPrioridade};
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

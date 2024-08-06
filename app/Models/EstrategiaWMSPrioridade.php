@@ -11,7 +11,9 @@ class EstrategiaWMSPrioridade extends Model
     use HasFactory;
 
     protected $table = 'tb_estrategia_wms_horario_prioridade';
+
     protected $primaryKey = 'cd_estrategia_wms_horario_prioridade';
+
     public $timestamps = false;
 
     public function estrategiaWMS(): BelongsTo
