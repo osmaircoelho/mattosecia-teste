@@ -9,5 +9,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 // region Estrategia
-Route::post('/estrategiaWMS', [EstrategiaWMS\StoreController::class, 'store'])->name('estrategia.store');
+Route::post('/estrategiaWMS', EstrategiaWMS\StoreController::class)->name('estrategia.store');
+
 // endregion
