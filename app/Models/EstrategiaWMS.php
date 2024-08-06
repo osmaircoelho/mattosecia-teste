@@ -13,4 +13,8 @@ class EstrategiaWMS extends Model
     protected $primaryKey = 'cd_estrategia_wms';
     public $timestamps = false;
 
+    public function horariosPrioridade()
+    {
+        return $this->hasMany(EstrategiaWMSPrioridade::class, 'cd_estrategia_wms');
+    }
 }
