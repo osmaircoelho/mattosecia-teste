@@ -43,5 +43,8 @@ Planejamento tarefa mattos & cia
 [] feature/aprimoramento
  [x] editar controller e acrescentar um try-catch
  [-] adicionar resource do laravel no post ou no get (se aplicavel)
- [] instalar o phpstan/larastan e rodar para elegibilidade do codigo
+ [x] instalar o phpstan/larastan e rodar para elegibilidade do codigo
+ [] instalar o Laravel Pint->Padrao de formatacao
+ [] criar no insomnia conteudo com diferentes retornos nos gets
  [] criar read-me para instalacao
+ 

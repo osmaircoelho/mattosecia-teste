@@ -10,7 +10,9 @@ class EstrategiaWMS extends Model
     use HasFactory;
 
     protected $table = 'tb_estrategia_wms';
+
     protected $primaryKey = 'cd_estrategia_wms';
+
     public $timestamps = false;
 
     public function horariosPrioridade()

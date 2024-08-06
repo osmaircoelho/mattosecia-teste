@@ -4,8 +4,7 @@ namespace App\Http\Controllers\EstrategiaWMS;
 
 use App\Http\Controllers\Controller;
 use App\Models\EstrategiaWMS;
-use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
+use Illuminate\Http\{JsonResponse, Request};
 use Illuminate\Support\Facades\DB;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -32,6 +31,7 @@ class StoreController extends Controller
             return response()->json(['message' => 'Estrategia WMS criada com sucesso!'], Response::HTTP_CREATED);
         } catch (\Exception $e) {
             DB::rollBack();
+
             return response()->json(['message' => 'Erro ao criar Estrategia WMS', 'error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
@@ -46,8 +46,8 @@ class StoreController extends Controller
     {
         return EstrategiaWMS::create([
             'ds_estrategia_wms' => $data['dsEstrategia'],
-            'nr_prioridade' => $data['nrPrioridade'],
-            'dt_registro' => now(),
+            'nr_prioridade'     => $data['nrPrioridade'],
+            'dt_registro'       => now(),
         ]);
     }
 
@@ -63,10 +63,10 @@ class StoreController extends Controller
         foreach ($horarios as $horario) {
             $estrategia->horariosPrioridade()->create([
                 'ds_horario_inicio' => $horario['dsHorarioInicio'],
-                'ds_horario_final' => $horario['dsHorarioFinal'],
-                'nr_prioridade' => $horario['nrPrioridade'],
-                'dt_registro' => now(),
-                'dt_modificado' => now()
+                'ds_horario_final'  => $horario['dsHorarioFinal'],
+                'nr_prioridade'     => $horario['nrPrioridade'],
+                'dt_registro'       => now(),
+                'dt_modificado'     => now(),
             ]);
         }
     }
