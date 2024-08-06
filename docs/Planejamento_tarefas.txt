@@ -25,10 +25,17 @@ Planejamento tarefa mattos & cia
  [x] rodar as migration
  [x] merge main <- migration_tb_estrategia_wms_horario_prioridade
  
-[] feature/post_estrategiawms
+[x] feature/post_estrategiawms
  [x] definir rota POST /estrategiaWMS
  [x] criar o controlador EstrategiaWMSController
  [x] criar o modelo estrategiawms
  [x] editar arquivo appServiceProvider model::ungarded
+ [x] criar relacionamento
+ [x] implementar a logica dentro do __invoke
+
+[x] feature/get_estrategiawms
+ [x] definir Rota GET /estrategiaWMS/{cdEstrategia}/{dsHora}/{dsMinuto}/prioridade
+ [x] criar o controlador EstrategiaWMSprioridadeController
+ [x] criar o modelo estrategiawmsprioridade 
  [x] criar relacionamento
  [x] implementar a logica dentro do __invoke
